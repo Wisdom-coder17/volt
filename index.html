@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080908">
+<title>VOLT — Streetwear</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="loader" role="status" aria-label="Loading VOLT">
+  <div class="scene"><span class="item i1">👕</span><span class="item i2">🧢</span><span class="item i3">👖</span><span class="cartbox">🛒</span></div>
+  <p>LOADING VOLT</p><div class="bar"><i></i></div>
+</div>
+
+<div class="announce">Free delivery on orders over ₦100,000 <span aria-hidden="true">✦</span> Limited drops, no restocks</div>
+<header id="hd">
+  <button id="burger" aria-label="Menu" aria-expanded="false"><span></span></button>
+  <a href="#/" class="logo">VOLT<span>®</span></a>
+  <nav id="nav">
+    <a href="#/">Home</a>
+    <a href="#/shop">Shop all</a>
+    <a href="#/shop?cat=Hoodies">Hoodies</a>
+    <a href="#/about">About us</a>
+    <a href="#/admin" id="adminLink" hidden>Admin</a>
+    <a href="#/login" id="authLink">Login</a>
+  </nav>
+  <button id="cartBtn" class="ib" aria-label="Open cart"><svg viewBox="0 0 24 24"><path d="M4 8h16l-1.4 12H5.4L4 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg><span id="cc">0</span></button>
+</header>
+
+<main id="app"></main>
+
+<footer class="foot">
+  <div><div class="logo">VOLT<span>®</span></div><p>Heavyweight streetwear, made in Lagos. Limited drops, no restocks.</p></div>
+  <div><h4>Shop</h4><a href="#/shop?cat=Tees">Tees</a><a href="#/shop?cat=Hoodies">Hoodies</a><a href="#/shop?cat=Pants">Pants</a><a href="#/shop?cat=Jackets">Jackets</a></div>
+  <div><h4>Company</h4><a href="#/about">About us</a><a href="#/login">Account</a><a href="#/checkout">Checkout</a></div>
+  <div><h4>Follow</h4><a href="#/">Instagram</a><a href="#/">TikTok</a><a href="#/">WhatsApp</a></div>
+  <div class="copy"><span>© 2026 VOLT. All rights reserved.</span><span>Lagos, Nigeria</span></div>
+</footer>
+
+<aside id="drawer" aria-label="Cart"></aside>
+<div id="shade" data-close></div>
+<div id="toast"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
